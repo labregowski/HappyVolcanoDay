@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+    <!--bckbround image style-->
+    <style name="BackgroundImage">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!--stickers textviews style-->
+    <style name="BasicTextViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:paddingRight">@dimen/activity_stickerHorztlPadding</item>
+        <item name="android:paddingLeft">@dimen/activity_stickerHorztlPadding</item>/>
+    </style>
+    <!--nested textview style :: topright stickers-->
+    <style name="TopStickers" parent="BasicTextViews">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/colorTopStickerBackground</item>
+        <item name="android:textColor">@color/colorTopStickerFont</item>/>
+    </style>
+    <!--nested textview style :: middleleft-->
+    <style name="MiddleStickers" parent="BasicTextViews">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:alpha">0.6</item>
+        <item name="android:background">@color/colorMiddleSticker2</item>
+        <item name="android:textColor">@color/colorMiddleSticker1</item>/>
+    </style>
+</resources>
+
+
+

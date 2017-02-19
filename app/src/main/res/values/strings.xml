@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Happy Volcano Day</string>
+    <string name="Active">Active</string>
+    <string name="Since">Since</string>
+    <string name="StartYear">2007</string>
+    <string name="UnderTheGround">sous le sol</string>
+    <string name="YourSun">le soleil</string>
+</resources>

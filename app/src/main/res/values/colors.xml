@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#535151</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorTopStickerFont">#CEB21A</color>
+    <color name="colorTopStickerBackground">#332218</color>
+    <color name="colorMiddleSticker1">#CEB21A</color>
+    <color name="colorMiddleSticker2">@android:color/holo_red_dark</color>
+</resources>

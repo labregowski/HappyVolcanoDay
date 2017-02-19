@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="activity_TopMargin">10dp</dimen>
+    <dimen name="activity_stickerHorztlPadding">5dp</dimen>
+</resources>

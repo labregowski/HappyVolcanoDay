@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.volcanoday.happyvolcanoday.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/volcano2"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/textView00"
+        android:text="@string/Active"
+        style="@style/TopStickers"
+        android:layout_marginTop="@dimen/activity_TopMargin"/>
+
+    <TextView
+        android:id="@+id/textView01"
+        android:text="@string/Since"
+        android:layout_below="@id/textView00"
+        style="@style/TopStickers"/>
+
+    <TextView
+        android:id="@+id/textView02"
+        android:text="@string/StartYear"
+        android:layout_below="@id/textView01"
+        style="@style/TopStickers"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="@string/UnderTheGround"
+        style="@style/MiddleStickers"
+        app:layout_marginTopPercent="55%"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="@string/YourSun"
+        android:layout_below="@id/textView1"
+        style="@style/MiddleStickers"
+        android:background="@color/colorMiddleSticker1"
+        android:textColor="@color/colorMiddleSticker2"/>
+
+</android.support.percent.PercentRelativeLayout>
